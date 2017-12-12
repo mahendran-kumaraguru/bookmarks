@@ -1,4 +1,8 @@
 Bookmarks::Application.routes.draw do
+  
+  devise_for :users
+  resources :bookmarks
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -53,4 +57,8 @@ Bookmarks::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  # Added by me
+  # get "site/index"
+  root "site#index"
 end
