@@ -4,5 +4,7 @@ tamil_nadu:
   - madurai
 karnataka:
   cities:
-    -bangalore
-    -bangalore
+    - bangalore
+    - bangalore
+  cities:
+    - mangalore
