@@ -1,8 +1,8 @@
 tamil_nadu:
   - trichy
-  - chennai
+  - "chennai" - chennai
   - madurai
 karnataka:
   cities:
-    -bangalore
-    -bangalore
+    - bangalore
+    - bangalore
